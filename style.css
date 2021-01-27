@@ -28,8 +28,34 @@ body{
     overflow: hidden;
 }   
 .cart{}
-.cart__photo{}
-.cart__name{}
-.cart__position{}
-.cart__note{}
-.cart__footer{}
+.cart__photo{
+    margin: 16px;
+    border-radius: 50%;
+}
+.cart__name{
+    font-size: 36px;
+    font-weight: normal;
+    margin:0;
+}
+.cart__position{
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    background-color: black;
+    margin-top: 8px;
+    padding: 8px 16px 8px 16px;
+}
+.cart__note{
+    font-size: 16px;
+    line-height: 22px;
+}
+.cart__footer{
+    font-size: 16px;
+    line-height: 22px;
+}
+.link{
+    background: black;
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+}
