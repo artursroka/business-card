@@ -14,9 +14,15 @@ body{
     min-height: 100vh;
 }
 
-main{
+.main{
     background-color: white;
     border-radius: 16px;
     width: 624px;
     overflow: hidden;
 }   
+.cart{}
+.cart__photo{}
+.cart__name{}
+.cart__position{}
+.cart__note{}
+.cart__footer{}
