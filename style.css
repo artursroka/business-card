@@ -27,7 +27,10 @@ body{
     width: 624px;
     overflow: hidden;
 }   
-.cart{}
+.cart{
+    display: flex;
+    align-items: flex-start;
+}
 .cart__photo{
     margin: 16px;
     border-radius: 50%;
@@ -35,7 +38,7 @@ body{
 .cart__name{
     font-size: 36px;
     font-weight: normal;
-    margin:0;
+    margin: 16px 16px 0 16px;
 }
 .cart__position{
     font-size: 18px;
@@ -48,14 +51,17 @@ body{
 .cart__note{
     font-size: 16px;
     line-height: 22px;
+    margin: 0 16px;
 }
 .cart__footer{
     font-size: 16px;
     line-height: 22px;
+    margin: 22px 16px 16px 16px;
 }
 .link{
     background: black;
     color: white;
     padding: 2px;
     font-weight: bold;
+    text-decoration: none;
 }
