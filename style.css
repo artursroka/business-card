@@ -47,10 +47,18 @@ body{
     width: 624px;
     overflow: hidden;
     z-index:2;
+    margin: 16px;
 }   
 .cart{
     display: flex;
     align-items: flex-start;
+}
+@media (max-width: 500px){
+    .cart{
+        display: block;
+        text-align: center;
+    
+    }
 }
 .cart__photo{
     margin: 16px;
